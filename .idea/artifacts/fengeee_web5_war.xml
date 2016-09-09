@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="fengeee-web5:war">
+    <output-path>$PROJECT_DIR$/fengeee/fengeee-web5/target</output-path>
+    <root id="archive" name="fengeee-web5.war">
+      <element id="artifact" artifact-name="fengeee-web5:war exploded" />
+    </root>
+  </artifact>
+</component>
