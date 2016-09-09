@@ -1,0 +1,43 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="fengeee-web:war exploded">
+    <output-path>$PROJECT_DIR$/fengeee/fengeee-web/target/fengeee</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="fengeee-web" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="fengeee-service-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="fengeee-service" />
+          </element>
+          <element id="archive" name="fengeee-manager-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="fengeee-manager" />
+          </element>
+          <element id="archive" name="fengeee-dal-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="fengeee-dal" />
+          </element>
+          <element id="archive" name="fengeee-common-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="fengeee-common" />
+          </element>
+          <element id="library" level="project" name="Maven: org.springframework:spring-context-support:4.0.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.slf4j:log4j-over-slf4j:1.7.12" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.12" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:4.0.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.0.3.RELEASE" />
+          <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.0.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:4.0.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:4.0.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.16.4" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.0.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.0.3.RELEASE" />
+          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/fengeee/fengeee-web/target/fengeee/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="fengeee-web/web/Web" />
+    </root>
+  </artifact>
+</component>

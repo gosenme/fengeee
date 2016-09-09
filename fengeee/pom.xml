@@ -23,6 +23,8 @@
         <maven.source.plugin.version>2.1</maven.source.plugin.version>
         <maven.deploy.plugin.version>2.7</maven.deploy.plugin.version>
         <lombok.version>1.16.4</lombok.version>
+        <slf4j.version>1.7.12</slf4j.version>
+        <commons-logging.version>1.2</commons-logging.version>
     </properties>
     <dependencyManagement>
         <dependencies>
@@ -126,6 +128,17 @@
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
                 <version>${lombok.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>log4j-over-slf4j</artifactId>
+                <version>${slf4j.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-logging</groupId>
+                <artifactId>commons-logging</artifactId>
+                <version>${commons-logging.version}</version>
+                <scope>compile</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>

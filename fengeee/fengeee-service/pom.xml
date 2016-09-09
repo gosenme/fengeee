@@ -11,11 +11,14 @@
     <artifactId>fengeee-service</artifactId>
     <packaging>jar</packaging>
     <version>${parent.version}</version>
-
     <dependencies>
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>fengeee-manager</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
         </dependency>
     </dependencies>
     <build>

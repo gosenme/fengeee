@@ -6,8 +6,10 @@
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="fangeee-web" />
+          <element id="module-output" name="fengeee-web" />
         </element>
       </element>
+      <element id="javaee-facet-resources" facet="fengeee-web/web/Web" />
     </root>
   </artifact>
 </component>
